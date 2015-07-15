@@ -1,0 +1,4 @@
+services:
+#    hypergrowth_event_store.example:
+#        class: Hypergrowth\EventStoreBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

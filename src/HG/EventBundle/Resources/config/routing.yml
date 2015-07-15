@@ -1,0 +1,3 @@
+hg_event_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: HGEventBundle:Default:index }

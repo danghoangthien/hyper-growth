@@ -1,0 +1,3 @@
+hypergrowth_event_store_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: HypergrowthEventStoreBundle:Default:index }

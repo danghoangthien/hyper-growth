@@ -1,0 +1,12 @@
+hyper_event_homepage:
+    path:     /event/postback
+    defaults: { _controller: HyperEventBundle:Default:index }
+hyper_event_store_document:
+    path:     /event/store
+    defaults: { _controller: HyperEventBundle:Default:storeDocument }
+hyper_event_v2:
+    path:     /event/postback/v2
+    defaults: { _controller: hyper_event.storage_controller:indexAction }
+hyper_event_test_memcached:
+    path:     /test/memcached
+    defaults: { _controller: hyper_event.storage_controller:testMemcachedAction }        
